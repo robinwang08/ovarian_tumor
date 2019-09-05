@@ -1,0 +1,36 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyter = "*"
+tensorflow = "*"
+keras = {extras = ["visualize"]}
+pillow = "*"
+yapf = "*"
+pynrrd = "*"
+matplotlib = "*"
+pandas = "*"
+scikit-image = "*"
+numpy = "*"
+webcolors = "*"
+simpleitk = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
+flask = "*"
+seaborn = "*"
+scipy = "*"
+keras-vis = "*"
+papermill = {version = "<1.0.0"}
+tensorflow-gpu = "*"
+sklearn = "*"
+nibabel = "*"
+tqdm = "*"
+ipython = "*"
+antspy = {file = "https://github.com/ANTsX/ANTsPy/releases/download/v0.1.4/antspy-0.1.4-cp36-cp36m-linux_x86_64.whl"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
